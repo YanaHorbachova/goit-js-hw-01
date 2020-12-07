@@ -4,7 +4,7 @@ let totalPrice = 0;
 let creditsNow = 0;
 let message;
 
-const imputDroid = prompt ('Какое количество дронов желаете приобрести?')
+let imputDroid = prompt ('Какое количество дронов желаете приобрести?')
 
 if (imputDroid !== null ) {
     imputDroid = Number(imputDroid);
