@@ -1,6 +1,6 @@
 let price;
 let country;
-let massage 
+let message 
 let countryName; 
 
 country = prompt('Выберите страну доставки');
@@ -11,31 +11,31 @@ if (country !== null) {
     switch (country){
         case 'китай': {
             price = `100 кредитов`
-            massage = `Доставка в ${countryName} будет стоить ${price} кредитов`
+            message = `Доставка в ${countryName} будет стоить ${price} кредитов`
             break;
             }
 
         case 'чили': {
             price = `250 кредитов`
-            massage = `Доставка в ${countryName} будет стоить ${price} кредитов`
+            message = `Доставка в ${countryName} будет стоить ${price} кредитов`
             break;
             }
 
         case 'австралия': {
             price = `170 кредитов`
-            massage = `Доставка в ${countryName} будет стоить ${price} кредитов`
+            message = `Доставка в ${countryName} будет стоить ${price} кредитов`
             break;
             }
 
         case 'индия': {
             price = `80 кредитов`
-            massage = `Доставка в ${countryName} будет стоить ${price} кредитов`
+            message = `Доставка в ${countryName} будет стоить ${price} кредитов`
             break;
             }
         
         case 'ямайка': {
             price = `120 кредитов`
-            massage = `Доставка в ${countryName} будет стоить ${price} кредитов`
+            message = `Доставка в ${countryName} будет стоить ${price} кредитов`
             break;
             } 
 
@@ -44,4 +44,4 @@ if (country !== null) {
     }
 }
 
-alert(massage);
+alert(message);
